@@ -50,11 +50,11 @@ def intersection(lat, lng, box):
     lng_1 = min(lng+0.25, box[3])
     return 0.0 if (lat_0+threshold>lat_1) or (lng_0+threshold>lng_1) else (lat_1-lat_0)*(lng_1-lng_0)
 
+count = 0
 results = list()
 for year in range(2010, 2017+1):
     year_data = pd.read_csv(file_name_for_year(year), delim_whitespace=True, header=None)
     shape = year_data.values.shape
-    print(year_data_dict)
     year_data_dict = {
         (year_data.values[i][0], year_data.values[i][1], ): year_data.values[0][2:]
         for i in range(shape[0])
@@ -74,10 +74,14 @@ for year in range(2010, 2017+1):
             lngs.append(x)
             x += 0.5
         # intersections of bounding box and [lat-0.25, lat+0.25]*[lng-0.25, lng+0.25]
-        intersections = [(intersection(lat, lng, v), year_data_dict[(74.25, 17.25,)]) for lat in lats for lng in lngs]
+        intersections = [(intersection(lat, lng, v), year_data_dict[(lng, lat,)]) for lat in lats for lng in lngs if (lng, lat,) in year_data_dict]
         # sum of area of intersections should == area of bounding box
-        assert abs(sum([x[0] for x in intersections])-total_area)<threshold
-        monthly_result = [sum([x[0]/total_area*x[1][i] for x in intersections]) for i in range(12)]
+        accumulated_area = sum([x[0] for x in intersections])
+        if not abs(accumulated_area - total_area) < threshold:
+            # Check! there are missing points
+            print("Name = {}\nYear = {}".format(name, year))
+            count += 1
+        monthly_result = [sum([x[0] / accumulated_area * x[1][i] for x in intersections]) for i in range(12)]
         results.append({
             'District Name': name + str(year),
             'January': monthly_result[0],
@@ -93,8 +97,10 @@ for year in range(2010, 2017+1):
             'November':monthly_result[10],
             'December':monthly_result[11],
         })
+print('RESULTS:')
 print(results)
-
+print('MISSING DATA:')
+print(count)
 # f = open(results)
 # data = json.load(f) f.close()
 #
