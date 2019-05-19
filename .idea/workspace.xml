@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd19537b-e8a4-45ea-8dc9-c3d736ab3199" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/precip_2017/district_avg_precips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/district_avg_precips.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +23,8 @@
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="227">
-              <caret line="511" column="10" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="10" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -185,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19694000" />
+    <option name="totallyTimeSpent" value="19831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -296,8 +295,8 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="227">
-          <caret line="511" column="10" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="10" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
