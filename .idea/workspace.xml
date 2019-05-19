@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd19537b-e8a4-45ea-8dc9-c3d736ab3199" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/precip_2017/.ipynb_checkpoints/district_precipitation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/.ipynb_checkpoints/district_precipitation-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,7 +174,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17786000" />
+    <option name="totallyTimeSpent" value="19299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
