@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd19537b-e8a4-45ea-8dc9-c3d736ab3199" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precip_2017/.ipynb_checkpoints/district_precipitation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/.ipynb_checkpoints/district_precipitation-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/precip_2017/district_avg_precips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/district_avg_precips.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/precip_2017/district_precipitation.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +16,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/precip_2017/district_precipitation.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/precip_2017/district_avg_precips.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="227">
+              <caret line="511" column="10" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -33,8 +44,8 @@
     <findStrings>
       <find>geocode</find>
       <find>high</find>
-      <find>sangli</find>
       <find>solap</find>
+      <find>sangli</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +185,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19299000" />
+    <option name="totallyTimeSpent" value="19694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -233,7 +244,6 @@
     <entry file="file://$PROJECT_DIR$/precip_2017/district_list_original.csv" />
     <entry file="file://$PROJECT_DIR$/precip_2017/coordinates_to_districts.py" />
     <entry file="file://$PROJECT_DIR$/precip_2017/district_list_new.csv" />
-    <entry file="file://$PROJECT_DIR$/precip_2017/district_avg_precips.csv" />
     <entry file="file://$PROJECT_DIR$/precip/district_precipitation.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
@@ -278,6 +288,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="32766" column="40" selection-start-line="32766" selection-start-column="40" selection-end-line="32766" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precip_2017/district_avg_precips.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="227">
+          <caret line="511" column="10" selection-start-line="511" selection-start-column="4" selection-end-line="511" selection-end-column="10" />
         </state>
       </provider>
     </entry>
